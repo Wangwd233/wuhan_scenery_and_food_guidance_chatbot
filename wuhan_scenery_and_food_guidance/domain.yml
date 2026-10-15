@@ -1,0 +1,197 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_name
+  - ask_snumber
+  - ask_location
+  - ask_email
+  - ask_design_to_converse
+  - ask_normally_talk_with
+  - ask_topic
+  - ask_tell_about
+  - ask_know_about
+  - ask_why_know
+  - ask_like_talk
+  - ask_history
+  - ask_function
+  - ask_fun_fact
+  - ask_scenic_spots
+  - ask_night_scenic
+  - ask_historical_scenic
+  - ask_weather
+  - ask_time_to_visit
+  - ask_lake_view
+  - ask_night_market
+  - ask_cultural_attractions
+  - ask_transportation
+  - ask_boat_tours
+  - ask_food_recommendation
+  - ask_family_friendly
+  - ask_famous_bridge
+  - ask_technical_scenic
+  - ask_nightlife
+  - ask_customs_traditions
+  - ask_shopping_center
+  - ask_best_noodles
+  - ask_special_snacks
+  - ask_steamed_dumplings
+  - ask_seafood_restaurant
+  - ask_local_drink
+  - ask_tea_recommendation
+  - ask_special_local_products
+  - ask_educational_institution
+  - ask_theme_park
+  - ask_highest_building
+  - ask_more_functions
+  - goodbye
+
+responses:
+  utter_name:
+  - text: "My designer is Wenda Wang, and he is a student in IFN 623 Human Information Interaction"
+  
+  utter_snumber:
+  - text: "His student number is n11378123."
+  
+  utter_ask_email:
+  - text: "His email address is n11378123@qut.edu.au."
+  
+  utter_ask_design_to_converse:
+  - text: "I'm designed to converse with user who is not familliar with Wuhan but want to know something about it or want to travel to Wuhan."
+  
+  utter_ask_normally_talk_with:
+  - text: "I normally talk to the user who use English and curious about Wuhan." 
+  
+  utter_ask_topic:
+  - text: "I know about special scenery and foods in a Chinese city, Wuhan."
+  
+  utter_ask_tell_about:
+  - text: "I can tell you some details about Wuhan's scenery and foods."
+  
+  utter_ask_know_about:
+  - text: "Wuhan is a city which located in Hubei Province, the South of China."
+  
+  utter_ask_why_know:
+  - text: "I guess that's because my designer really want to introduce his hometown by this way. :)"
+  
+  utter_ask_like_talk:
+  - text: "Of course! Wuhan is a really beatiful and historical city, I really like to share something with you."
+
+  utter_greet:
+  - text: "Hello! Welcome to the Wuhan Scenery and Food Guide, I'm your guidance Tim. Would you like to know where Wuhan is located?"
+  
+  utter_function:
+  - text: "I have some knowledge about Wuhan in special foods and scenic spot. What do you want to know?"
+  
+  utter_ask_scenic_spots:
+    - text: "Wuhan is filled with scenic wonders. Some of the must-visit spots include East Lake, Yellow Crane Tower and Hankou Waterfront. Which one would you like to know first?"
+  
+  utter_ask_history:
+  - text: "Wuhan has a rich history dating back over 3,500 years. It played a significant role in the Warring States period and was pivotal in the 1911 Revolution. I can also introduce you Wuhan historical building if you want."
+  
+  utter_ask_night_scenic:
+  - text: "Hankou Waterfront is one of the huge project in Wuhan scenery construction. It is a scenic area along the Yangtze River in Wuhan, featuring modern architecture, parks, and recreational spaces, popular for leisurely walks and river views. Any other spot you might want to know?"
+  
+  utter_ask_historical_scenic:
+  - text: "The Yellow Crane Tower is a scenic spots and historical sites, it is a landmark of Wuhan and appear frequently in many trade mark of Wuhan brands. It was built in 1800 years ago with endless folks and well-known Chinese ancient poetry. Any thing more you want to know about Wuhan scenic spots?"
+  
+  utter_ask_weather:
+  - text: "Summers in Wuhan can be hot and humid, with temperatures often exceeding 30°C (86°F). Dress lightly and stay hydrated if you visit during that time. Do you want me introduce some Wuhan local drink to you?"
+  
+  utter_ask_time_to_visit:
+  - text: "The best time to visit Wuhan is during the spring and autumn when the weather is pleasant, and you can enjoy the beauty of cherry blossoms or colorful foliage. Do you want me recommend some scenic spots to you?"
+  
+  utter_ask_lake_view:
+  - text: "East Lake is the largest lake in Wuhan, it covers 33 square kilometer. It is a sprawling, picturesque freshwater lake located in the heart of Wuhan, renowned for its serene beauty and tranquil surroundings, making it a popular destination for both locals and tourists. Any more spots you wanna know about?"
+  
+  utter_ask_technical_scenic:
+  - text: "Wuhan Guanggu, also known as Wuhan Guanggu International Expo Center, is a prominent convention and exhibition center located in the Wuhan East Lake High-tech Development Zone, an area known for its focus on technology and innovation in China. Ready for a modern trip?"
+
+  utter_ask_night_market:
+    - text: "For a taste of Wuhan's vibrant street food scene, visit the Jianghan Road Night Market. You can savor a variety of local delicacies there. Ready for some street food?"
+  
+  utter_location:
+  - text: "Wuhan is a city which located in Hubei Province, the South of China, and it is one of the large city in China. Do you want to know the history of Wuhan?"
+  
+  utter_ask_fun_fact:
+    - text: "Here's a fun fact: Wuhan is often referred to as the 'Chicago of China' due to its strategic location as a major transportation hub. Interesting, right?"
+  
+  utter_ask_family_friendly:
+    - text: "I would highly recommend Wuhan Zoo for family visiting. Kids can see a variety of animals, and there are playgrounds for them to enjoy. "
+    
+  utter_ask_famous_bridge:
+    - text: "Have you heard about Wuhan Yangtze River Bridge? It is Wuhan's famous Bridge on Yangtze River, is an iconic landmark connecting the city's two banks. Any other spot you want to know about?"
+    
+  utter_ask_nightlife:
+    - text: "Wuhan comes alive at night! Explore bars, clubs, and live music venues in areas like Hankou and Wuchang for an exciting nightlife experience. Ready to dance the night away?"
+    
+  utter_ask_customs_traditions:
+    - text: "To learn more about local customs and traditions, visit the Hubei Folk Culture Village. It offers insights into traditional customs, music, and dance performances. Need some suggestions for a culture sites in the city?"
+    
+  utter_ask_shopping_center:
+    - text: "Wuhan International Plaza is a prominent commercial and office complex located in Wuhan, known for its modern architectural design and bustling business environment. Maybe I can also recommend some special local product to you?"
+  
+  utter_ask_food_recommendation:
+  - text: "Wuhan is a food lover's paradise! You should definitely try hot dry noodles, doupi, and Steamed dumplings. Is there a specific dish you're curious about?"
+  
+  utter_ask_best_noodles:
+    - text: "Wuhan hot dry noodles are a beloved Chinese street food known for their chewy wheat noodles tossed in a spicy sesame sauce, creating a flavorful and satisfying dish. Any other food or drink you want to know about?"
+    
+  utter_ask_special_snacks:
+    - text: "Wuhan doupi is a savory Chinese street food consisting of crispy and chewy rice-flour pancakes stuffed with various fillings, typically enjoyed with a spicy sauce. Any other food or drink come into your notice?"
+    
+  utter_ask_steamed_dumplings:
+    - text: "Steamed dumplings are delicate parcels of dough filled with various ingredients, typically savory, and cooked by steaming, resulting in a tender and flavorful culinary delight. It contains high heat and easy to feed your stomach, I recommend to also take somoe local drink with it."
+    
+  utter_ask_seafood_restaurant:
+    - text: "If you're a seafood enthusiast, don't miss 'Xiaonanyang Seafood Restaurant.' They offer a delightful selection of fresh seafood dishes. Any other place or food you want to know??"
+    
+  utter_ask_local_drink:
+    - text: "If you arrive Wuhan, you must try 'Suanmeitang,' a sweet and sour plum drink. It's incredibly refreshing and a local favorite. I can also give you advise on delicious special snacks if you want."
+    
+  utter_ask_cultural_attractions:
+    - text: "To explore Wuhan's cultural heritage, visit the Hubei Provincial Museum for ancient artifacts or catch a traditional performance at the Wuhan Opera. "
+    
+  utter_ask_transportation:
+    - text: "Getting around Wuhan is easy with its efficient subway system, buses, and plenty of taxis. You can also consider using ride-sharing apps for convenience. Any scenic spot you want to go?"
+    
+  utter_ask_boat_tours:
+    - text: "The Yangtze River, also known as the Chang Jiang in Chinese, is one of the world's most significant and longest rivers. You can enjoy boat tours on the Yangtze River in Wuhan. It's a great way to appreciate the river's beauty and learn about its history. Do you want to also know about bridge on Yangtze River?"
+    
+  utter_ask_tea_recommendation:
+    - text: "For the best tea in Wuhan, don't miss the famous tea market on Hubu Alley. They offer a wide selection of high-quality teas, including the renowned yellow tea. Might find a historical scenic also?"
+    
+  utter_ask_special_local_products:
+    - text: "With long history, Wuhan also have some famous special local products. The most well-known and cost-efficient is Zhou Hei Ya, green bean cake and salted duck egg. It would be a good present for friends, isn't it?"
+    
+  utter_ask_educational_institution:
+    - text: "I would highly recommend you visit Wuhan University. Wuhan University is a prestigious and historically significant institution in China, known for its academic excellence, beautiful campus, and contributions to various fields of study. You will feel cultural atomsphere there."
+    
+  utter_ask_theme_park:
+    - text: "Achieve your dream in Happy Vally Wuhan! Happy Valley Wuhan is a thrilling and expansive amusement park in Wuhan, China, offering a wide array of rides, shows, and attractions for visitors of all ages. Ready for a fantastic and exciting journey?"
+    
+  utter_ask_highest_building:
+    - text: "Let me introduce you Wuhan Greenland Center. Wuhan Greenland Center is the highest skyscraper in Wuhan (476m), soaring to impressive heights and featuring a modern design that has become an iconic part of the city's skyline. fascinating, isn't it?"
+    
+  utter_ask_more_functions:
+    - text: "Well, I also know Wuhan scenery and foods in other speical area, such as technical scenic, night scenic, theme park, university, famous bridge, night market, shopping center, restaurant and also some local drinks and tea. Is there anything in the list you want to know?"
+
+  utter_goodbye:
+    - text: "Thank you for chatting with me. Enjoy your exploration of Wuhan!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+  
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

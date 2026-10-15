@@ -1,0 +1,284 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: ask_name
+  examples: |
+    - who created you
+    
+- intent: ask_snumber
+  examples: |
+    - what is their student number   
+    
+- intent: ask_email
+  examples: |
+    - What is their email address?
+    
+- intent: ask_design_to_converse
+  examples: |
+    - who were you designed to converse with?
+    
+- intent: ask_normally_talk_with
+  examples: |
+    - who do you normally talk with?
+    
+- intent: ask_topic
+  examples: |
+    - What topic do you know about Wuhan?
+    
+- intent: ask_tell_about
+  examples: |
+    - What can you tell me about?
+    
+- intent: ask_know_about
+  examples: |
+    - What do you know about Wuhan?
+    
+- intent: ask_why_know
+  examples: |
+    - Why do you know about this topic?
+    
+- intent: ask_like_talk
+  examples: |
+    - Do you like talking about Wuhan?
+
+- intent: ask_location
+  examples: |
+    - Where
+    - is Wuhan
+    - location
+    - Wuhan?
+    
+- intent: ask_history
+  examples: |
+    - Tell me more about Wuhan's history.
+    - What historical events are associated with Wuhan?
+    - I love history; share some Wuhan facts.
+    - what history
+    
+- intent: ask_fun_fact
+  examples: |
+    - Share an interesting fact about Wuhan.
+    - Tell me something unique about Wuhan.
+    - Surprise me with a Wuhan fun fact!
+    
+- intent: ask_function
+  examples: |
+    - What does Wuhan have
+    - What function do you have
+    - what do you know about Wuhan
+    - i want to know more about Wuhan
+    - what can you help me
+
+- intent: ask_scenic_spots
+  examples: |
+    - what scenic
+    - landmark
+    - What are some scenic spots in Wuhan?
+    - Tell me about Wuhan's tourist attractions
+    - Which places should I visit for scenery in Wuhan?
+    
+- intent: ask_night_scenic
+  examples: |
+    - I want to know more about Hankou Waterfront
+    - I'm interest in Hankou Waterfront
+    - Can you tell me more about Hankou Waterfront
+    - Hankou Waterfront
+    - Which place have beatiful night scenic
+    
+- intent: ask_historical_scenic
+  examples: |
+    - what can you tell me about Yellow Crane Tower
+    - I'm interest in Yellow Crane Tower
+    - Can you tell me more about Yellow Crane Tower
+    - Yellow Crane Tower
+    - Is there any historical architecture in Wuhan
+    - historical building
+    
+- intent: ask_weather
+  examples: |
+    - What's the weather like in Wuhan during summer?
+    - How's the climate in Wuhan in July?
+    - I'm planning a summer trip; what's the weather forecast?
+    
+- intent: ask_time_to_visit
+  examples: |
+    - When is the best time to visit Wuhan?
+    - What's the ideal season for a trip to Wuhan?
+
+- intent: ask_lake_view
+  examples: |
+    - I want to know more about East Lake
+    - what can you tell me about East Lake
+    - I'm interest in East Lake
+    - Can you tell me more about East Lake
+    - East Lake
+    - Is there any lake view
+    
+- intent: ask_night_market
+  examples: |
+    - Which is the best night market for street food?
+    - Where can I find delicious street food in Wuhan?
+    - I want to explore street food; any recommendations?
+    
+- intent: ask_cultural_attractions
+  examples: |
+    - What are some cultural attractions in Wuhan?
+    - Can you recommend cultural sites to visit?
+    - I'm interested in culture; where should I go?
+    
+- intent: ask_transportation
+  examples: |
+    - How can I get around the city easily?
+    - Tell me about transportation options in Wuhan.
+    - I need help with transportation, any tips?
+    
+- intent: ask_boat_tours
+  examples: |
+    - Are there any boat tours on the Yangtze River?
+    - Can I take a river tour in Wuhan?
+    - Tell me about Yangtze River boat trips.
+    
+- intent: ask_family_friendly
+  examples: |
+    - Recommend a family-friendly attraction.
+    - Where can I take my family for a fun day in Wuhan?
+    - I have kids; any family-friendly places?
+    
+- intent: ask_famous_bridge
+  examples: |
+    - Is there a famous bridge in Wuhan?
+    - Tell me about Wuhan's iconic bridges.
+    - I love bridges; which one should I visit?
+    - Any landmarks you can introduce?
+    
+- intent: ask_technical_scenic
+  examples: |
+    - I love technologies, any technical area in Wuhan?
+    - I'm fascinating with high tech items, can you recommend some place associated with that?
+    
+- intent: ask_nightlife
+  examples: |
+    - What's the nightlife like in Wuhan?
+    - Tell me about Wuhan's party scene.
+    - I want to experience the nightlife; where should I go?
+      
+- intent: ask_customs_traditions
+  examples: |
+    - How can I learn more about local customs and traditions?
+    - Tell me about Wuhan's cultural experiences.
+    - I want to immerse in the culture; any recommendations?
+    
+- intent: ask_shopping_center
+  examples: |
+    - Where is the best shopping center in Wuhan?
+    - My family member are craze at shopping, is there a place recommended in Wuhan?
+    - Is there any shopping center that I can take time to visit?
+  
+- intent: ask_food_recommendation
+  examples: |
+    - Can you recommend some local food?
+    - What's the best food to try in Wuhan?
+    - I'm curious about Wuhan cuisine.
+    - What is Wuhan special snacks?
+    
+- intent: ask_best_noodles
+  examples: |
+    - I want to know more about hot dry noodles
+    - What is hot dry noodles
+    - I'm interest in hot dry noodles
+    - Can you tell me more about hot dry noodles
+    - hot dry noodle
+    - Where can I find the best hot dry noodles in Wuhan?
+    - Tell me about Wuhan's famous noodles.
+    - I'm a noodle enthusiast; any recommendations?
+    
+- intent: ask_special_snacks
+  examples: |
+    - Is there any local special food in Wuhan?
+    - I want to know more about doupi
+    
+- intent: ask_steamed_dumplings
+  examples: |
+    - Is there any high heat food in Wuhan?
+    - I'm curious about steamed dumplings
+    
+- intent: ask_seafood_restaurant
+  examples: |
+    - Recommend a good seafood restaurant in Wuhan.
+    - Any places for a seafood feast in Wuhan?
+    - I'm craving seafood; where should I go?
+    
+- intent: ask_local_drink
+  examples: |
+    - What's the specialty drink in Wuhan?
+    - Tell me about local beverages in Wuhan.
+    - What's a refreshing drink I should try in Wuhan?
+    - Is there any popular drink in Wuhan?
+    
+- intent: ask_tea_recommendation
+  examples: |
+    - Where can I find the best tea in Wuhan?
+    - Tell me about Wuhan's tea culture.
+    - I'm a tea enthusiast; where should I go?
+    
+- intent: ask_special_local_products
+  examples: |
+    - What special product I can buy from Wuhan?
+    - I want purchase some gift to my friends, any recommendation?
+    - Anything special I can bring back from Wuhan for myself or as a gift?
+    
+- intent: ask_educational_institution
+  examples: |
+    - I'm curious about advanced education institution, any place recommended?
+    - I'm a university student and I also want to see local universities, any suggestion?
+    - Any place I can experience cultural spirit?
+    
+- intent: ask_theme_park
+  examples: |
+    - Where I can find a carnival?
+    - I'm enthusiastic with theme park, I want to know if I can find one in Wuhan?
+    - Any advice for an exciting tour?
+    
+- intent: ask_highest_building
+  examples: |
+    - I love buildings, what is the highest building in Wuhan?
+    - I'm fascinating with skyscraper, where can I find one in Wuhan?
+    - I want to have good scenes of Wuhan CBD, where I can find a spot to observe it?
+    
+- intent: ask_more_functions
+  examples: |
+    - What else do you know
+    - Is that all your function?
+    - Can you tell me more about Wuhan?
+    - Is that all you know about?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Farewell
+

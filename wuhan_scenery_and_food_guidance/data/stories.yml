@@ -1,0 +1,219 @@
+version: "3.1"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- story: creator_name
+  steps:
+  - intent: ask_name
+  - action: utter_name
+  
+- story: snumber
+  steps:
+  - intent: ask_snumber
+  - action: utter_snumber
+  
+- story: ask_email
+  steps:
+  - intent: ask_email
+  - action: utter_ask_email
+  
+- story: ask_design_to_converse
+  steps:
+  - intent: ask_design_to_converse
+  - action: utter_ask_design_to_converse
+  
+- story: ask_normally_talk_with
+  steps:
+  - intent: ask_normally_talk_with
+  - action: utter_ask_normally_talk_with
+  
+- story: ask_topic
+  steps:
+  - intent: ask_topic
+  - action: utter_ask_topic
+  
+- story: ask_tell_about
+  steps:
+  - intent: ask_tell_about
+  - action: utter_ask_tell_about
+  
+- story: ask_know_about
+  steps:
+  - intent: ask_know_about
+  - action: utter_ask_know_about
+  
+- story: ask_why_know
+  steps:
+  - intent: ask_why_know
+  - action: utter_ask_why_know
+  
+- story: ask_like_talk
+  steps:
+  - intent: ask_like_talk
+  - action: utter_ask_like_talk
+
+- story: location
+  steps:
+  - intent: ask_location
+  - action: utter_location
+  
+- story: history
+  steps:
+  - intent: ask_history
+  - action: utter_ask_history
+  
+- story: function
+  steps:
+  - intent: ask_function
+  - action: utter_function
+  
+- story: scenic
+  steps:
+  - intent: ask_scenic_spots
+  - action: utter_ask_scenic_spots
+  
+- story: night_scenic
+  steps:
+  - intent: ask_night_scenic
+  - action: utter_ask_night_scenic
+  
+- story: historical_scenic
+  steps:
+  - intent: ask_historical_scenic
+  - action: utter_ask_historical_scenic
+  
+- story: ask_weather
+  steps:
+  - intent: ask_weather
+  - action: utter_ask_weather
+  
+- story: ask_lake_view
+  steps:
+  - intent: ask_lake_view
+  - action: utter_ask_lake_view
+  
+- story: ask_food_recommendation
+  steps:
+  - intent: ask_food_recommendation
+  - action: utter_ask_food_recommendation
+  
+- story: ask_time_to_visit
+  steps:
+  - intent: ask_time_to_visit
+  - action: utter_ask_time_to_visit
+  
+- story: ask_best_noodles
+  steps:
+  - intent: ask_best_noodles
+  - action: utter_ask_best_noodles
+  
+- story: ask_seafood_restaurant
+  steps:
+  - intent: ask_seafood_restaurant
+  - action: utter_ask_seafood_restaurant
+  
+- story: ask_local_drink
+  steps:
+  - intent: ask_local_drink
+  - action: utter_ask_local_drink
+  
+- story: ask_night_market
+  steps:
+  - intent: ask_night_market
+  - action: utter_ask_night_market
+  
+- story: ask_cultural_attractions
+  steps:
+  - intent: ask_cultural_attractions
+  - action: utter_ask_cultural_attractions
+  
+- story: ask_transportation
+  steps:
+  - intent: ask_transportation
+  - action: utter_ask_transportation
+  
+- story: ask_boat_tours
+  steps:
+  - intent: ask_boat_tours
+  - action: utter_ask_boat_tours
+  
+- story: ask_fun_fact
+  steps:
+  - intent: ask_fun_fact
+  - action: utter_ask_fun_fact
+  
+- story: ask_family_friendly
+  steps:
+  - intent: ask_family_friendly
+  - action: utter_ask_family_friendly
+  
+- story: ask_famous_bridge
+  steps:
+  - intent: ask_famous_bridge
+  - action: utter_ask_famous_bridge
+  
+- story: ask_nightlife
+  steps:
+  - intent: ask_nightlife
+  - action: utter_ask_nightlife
+  
+- story: ask_customs_traditions
+  steps:
+  - intent: ask_customs_traditions
+  - action: utter_ask_customs_traditions
+  
+- story: ask_tea_recommendation
+  steps:
+  - intent: ask_tea_recommendation
+  - action: utter_ask_tea_recommendation
+  
+- story: ask_special_snacks
+  steps:
+  - intent: ask_special_snacks
+  - action: utter_ask_special_snacks
+  
+- story: ask_steamed_dumplings
+  steps:
+  - intent: ask_steamed_dumplings
+  - action: utter_ask_steamed_dumplings
+  
+- story: ask_technical_scenic
+  steps:
+  - intent: ask_technical_scenic
+  - action: utter_ask_technical_scenic
+  
+- story: ask_shopping_center
+  steps:
+  - intent: ask_shopping_center
+  - action: utter_ask_shopping_center
+  
+- story: ask_special_local_products
+  steps:
+  - intent: ask_special_local_products
+  - action: utter_ask_special_local_products
+  
+- story: ask_educational_institution
+  steps:
+  - intent: ask_educational_institution
+  - action: utter_ask_educational_institution
+  
+- story: ask_theme_park
+  steps:
+  - intent: ask_theme_park
+  - action: utter_ask_theme_park
+  
+- story: ask_highest_building
+  steps:
+  - intent: ask_highest_building
+  - action: utter_ask_highest_building
+  
+- story: ask_more_functions
+  steps:
+  - intent: ask_more_functions
+  - action: utter_ask_more_functions
+
